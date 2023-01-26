@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/react-gu-slider",
+	"version": "0.1.0",
+
+	"title": "React Gu Slider",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"attributes": {
+		"sliderPadding":{
+			"type":"object",
+			"default":{}
+		},
+		"sliderMargin":{
+			"type":"object",
+			"default":{}
+		}
+		
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "react-gu-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
